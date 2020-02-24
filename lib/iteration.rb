@@ -3,7 +3,6 @@ require "pry"
 def join_ingredients(src)
   array = []
   counter = 0 
-  binding.pry
   while counter < src.length do 
     array.push("I love #{src[counter][0]} and #{src[counter][1]} on my pizza")
     counter += 1
